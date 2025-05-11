@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		046122382D9FE5C3003DFB90 /* albums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = albums.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046122382D9FE5C3003DFB90 /* Photos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0461223B2D9FE5C3003DFB90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0461223D2D9FE5C3003DFB90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0461223F2D9FE5C3003DFB90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		0461222F2D9FE5C3003DFB90 = {
 			isa = PBXGroup;
 			children = (
-				0461223A2D9FE5C3003DFB90 /* albums */,
+				0461223A2D9FE5C3003DFB90 /* Photos */,
 				046122392D9FE5C3003DFB90 /* Products */,
 				434A583274E7625A12BEEF17 /* Pods */,
 				61C454FF3D8F649BB735A9D4 /* Frameworks */,
@@ -63,12 +63,12 @@
 		046122392D9FE5C3003DFB90 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				046122382D9FE5C3003DFB90 /* albums.app */,
+				046122382D9FE5C3003DFB90 /* Photos.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0461223A2D9FE5C3003DFB90 /* albums */ = {
+		0461223A2D9FE5C3003DFB90 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
 				0461223B2D9FE5C3003DFB90 /* AppDelegate.swift */,
@@ -83,7 +83,7 @@
 				0469C88F2DA4F6B3001B437C /* PhotoTableViewCell.swift */,
 				0469C8902DA4F6B3001B437C /* PhotoTableViewCell.xib */,
 			);
-			path = albums;
+			path = Photos;
 			sourceTree = "<group>";
 		};
 		434A583274E7625A12BEEF17 /* Pods */ = {
@@ -106,9 +106,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		046122372D9FE5C3003DFB90 /* albums */ = {
+		046122372D9FE5C3003DFB90 /* Photos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0461224C2D9FE5C7003DFB90 /* Build configuration list for PBXNativeTarget "albums" */;
+			buildConfigurationList = 0461224C2D9FE5C7003DFB90 /* Build configuration list for PBXNativeTarget "Photos" */;
 			buildPhases = (
 				DA9EBAAEE6061927100499D8 /* [CP] Check Pods Manifest.lock */,
 				046122342D9FE5C3003DFB90 /* Sources */,
@@ -120,9 +120,9 @@
 			);
 			dependencies = (
 			);
-			name = albums;
+			name = Photos;
 			productName = albums;
-			productReference = 046122382D9FE5C3003DFB90 /* albums.app */;
+			productReference = 046122382D9FE5C3003DFB90 /* Photos.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -140,7 +140,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 046122332D9FE5C3003DFB90 /* Build configuration list for PBXProject "albums" */;
+			buildConfigurationList = 046122332D9FE5C3003DFB90 /* Build configuration list for PBXProject "Photos" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -153,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				046122372D9FE5C3003DFB90 /* albums */,
+				046122372D9FE5C3003DFB90 /* Photos */,
 			);
 		};
 /* End PBXProject section */
@@ -428,7 +428,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		046122332D9FE5C3003DFB90 /* Build configuration list for PBXProject "albums" */ = {
+		046122332D9FE5C3003DFB90 /* Build configuration list for PBXProject "Photos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0461224A2D9FE5C7003DFB90 /* Debug */,
@@ -437,7 +437,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0461224C2D9FE5C7003DFB90 /* Build configuration list for PBXNativeTarget "albums" */ = {
+		0461224C2D9FE5C7003DFB90 /* Build configuration list for PBXNativeTarget "Photos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0461224D2D9FE5C7003DFB90 /* Debug */,
